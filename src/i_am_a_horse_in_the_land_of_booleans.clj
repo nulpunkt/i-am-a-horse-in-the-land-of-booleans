@@ -14,10 +14,10 @@
   ":(")
 
 (defn teen? [age]
-  ":(")
+  (and (< age 20) (> age 12)))
 
 (defn not-teen? [age]
-  ":(")
+  (not (teen? age)))
 
 (defn generic-doublificate [x]
   ":(")
